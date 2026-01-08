@@ -65,13 +65,41 @@ html, body {
 }
 
 .main-1 {
-    justify-items: center;
+    text-align: center;
     background-color: white;
-    margin: 10px 0px;
+    padding: 60px 0;
 }
 
 #main-1-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 40px;
+}
+
+#main-1-body {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#main-1-body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+#main-1-body > div > div {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#main-1-body h3 {
+    color: #6c747c;
+    font-size: 14px;
+    font-weight: 400;
 }
