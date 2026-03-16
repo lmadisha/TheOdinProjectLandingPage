@@ -173,3 +173,18 @@ html, body {
   padding: 8px 28px;
   font-weight: 700;
 }
+
+/* copyright section */
+
+.copyright-footer {
+    background-color: #1f2937;
+    padding: 50px;
+    text-align: center;
+}
+
+.copyright-text {
+    font: roboto;
+    color: #f9f4f8;
+    padding: 40;
+
+}
