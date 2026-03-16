@@ -133,3 +133,43 @@ html, body {
     font-weight: 700;
     margin-top: 16px;
 }
+
+/* Call to action */
+
+.cta-section {
+    background-color: white;
+    padding: 80px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    border-radius: 12px;
+    max-width: 900px 0;
+    margin: 0 auto;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.cta-text h2 {
+  color: white;
+  margin: 0;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+  margin: 4px 0 0 0;
+}
+
+.cta-box button {
+  background: #3882f6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 8px 28px;
+  font-weight: 700;
+}
