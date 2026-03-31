@@ -6,6 +6,8 @@ html, body {
 
 /* navbar */
 
+/* Navbar head */
+
 .site-header {
     font-style: roboto;
     background-color: #242c3b;
@@ -40,6 +42,52 @@ html, body {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 14px;
+}
+
+/* navbar bottom row */
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bottom-row > div {
+    max-width: 500px;
+}
+
+.bottom-row h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0 0 10px 0;
+}
+
+.bottom-row p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
+.bottom-row button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.bottom-row > div:last-child {
+    background-color: #6b7280;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 220px;
 }
 
 
